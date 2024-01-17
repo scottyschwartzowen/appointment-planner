@@ -27,6 +27,7 @@ export const ContactForm = ({
         <input
           type="tel"
           id="phone"
+          placeholder="xxx-xxx-xxxx"
           value={phone}
           pattern={phoneRegex}
           onChange={(e) => setPhone(e.target.value)}

@@ -23,16 +23,7 @@ export const ContactsPage = ({ contacts, newContact }) => {
       setPhone('');
       setEmail('');
     }
-    /*
-    Add contact info and clear data
-    if the contact name is not a duplicate
-    */
   };
-
-  /*
-  Using hooks, check for contact name in the 
-  contacts array variable in props
-  */
 
   return (
     <div>

@@ -1,9 +1,13 @@
-import React from "react";
+import React from 'react';
 
-export const TileList = () => {
+import { Tile } from '../tile/Tile';
+
+export const TileList = ({ data }) => {
   return (
     <div>
-      
+      {data.map((item, index) => (
+        <Tile key={index} name={item.name} description={{ ...item }} />
+      ))}
     </div>
   );
 };
