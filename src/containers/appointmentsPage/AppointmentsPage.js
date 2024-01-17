@@ -11,15 +11,17 @@ export const AppointmentsPage = ({
   const [contact, setContact] = useState('');
   const [date, setDate] = useState('');
   const [time, setTime] = useState('');
+  const [title, setTitle] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    addAppointment(name, contact, date, time);
+    addAppointment(title, name, contact, date, time);
     setName('');
     setContact('');
     setDate('');
     setTime('');
+    setTitle('');
   };
 
   return (
@@ -28,6 +30,7 @@ export const AppointmentsPage = ({
         <h2>Add Appointment</h2>
         <AppointmentForm
           name={name}
+          setTitle={setTitle}
           setName={setName}
           contact={contact}
           setContact={setContact}
