@@ -18,6 +18,7 @@ export const AppointmentForm = ({
   setTime,
   handleSubmit,
 }) => {
+
   return (
     <form onSubmit={handleSubmit}>
       <div>
