@@ -1,6 +1,6 @@
 ![img](./src/screenshot.png)
 
-[LINK](https://spso-appointment-planner.netlify.app/contacts)
+[LINK](https://65a9c7b7afd6502a7effbcad--spso-appointment-planner.netlify.app/contacts)
 
 # Contacts / Appointments Web App
 
