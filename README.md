@@ -1,6 +1,6 @@
 ![img](./src/screenshot.png)
 
-[LINK](https://scotttify.netlify.app)
+[LINK](https://spso-appointment-planner.netlify.app/contacts)
 
 # Contacts / Appointments Web App
 
@@ -15,5 +15,6 @@
 - Create an Appointment with local date and time functionality
 
 - Attached selected Contact to the Appointment
+  (_under construction - currently contact does not populate in appointment contact picker_)
 
 - Submit Appointment to list as a reminder of upcoming appointments
