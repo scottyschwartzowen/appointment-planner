@@ -1,4 +1,4 @@
-![img](public.screenshot.png)
+![img](./src/screenshot.png)
 
 [LINK](https://scotttify.netlify.app)
 
@@ -6,13 +6,13 @@
 
 - Built with HTML / CSS / JAVASCRIPT / REACT
 
-- I made this as part of Codecademy's Full Stack Developer course
+- This was made as part of Codecademy's Full Stack Developer course
 
 # Features
 
 - Add contacts to Contact List
 
-- Create an appointment with local Date and Time functionality
+- Create an Appointment with local date and time functionality
 
 - Attached selected Contact to the Appointment
 
